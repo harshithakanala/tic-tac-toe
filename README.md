@@ -20,15 +20,14 @@ Follow these steps to set up and run the project on your local machine:
 
 4.   **Navigate to the Project Directory**: Use the `cd` command to navigate into the project directory:
    ```bash
-   cd server
+    cd server
    
 5. **Install Dependencies**: Once you're inside the project directory, install the required dependencies using npm:
    ```bash
-   npm install
-
+    npm install
 
 6. **Run the Project**: After the dependencies are installed, you can run the project using npm:
    ```bash
-   npm run dev (for client)
-   npm start (for server)
+    npm run dev (for client)
+    npm start (for server)
 
