@@ -27,12 +27,12 @@ Follow these steps to set up and run the project on your local machine:
    npm install
    
 10. Run the Project: After the dependencies are installed, you can run the project.
-     To start the client, run:
-      ```bash
-      npm run dev
-     To start the server, run:
-      ```bash
-      npm start
+     a. To start the client, run:
+        ```bash
+        npm run dev
+     b. To start the server, run:
+        ```bash
+        npm start
 
 
 
