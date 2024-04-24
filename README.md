@@ -11,22 +11,28 @@ Follow these steps to set up and run the project on your local machine:
    git clone https://github.com/harshithakanala/tic-tac-toe.git
 
 2. Navigate to the Client Directory: Use the cd command to navigate into the client directory:
+   ```bash
    cd tic-tac-toe/client
    
-3. Install Client Dependencies: Once you're inside the client directory, install the required dependencies using npm:
+4. Install Client Dependencies: Once you're inside the client directory, install the required dependencies using npm:
+   ```bash
    npm install
 
-4. Navigate to the Server Directory: Use the cd command to navigate into the server directory:
+6. Navigate to the Server Directory: Use the cd command to navigate into the server directory:
+   ```bash
    cd ../server
 
-5. Install Server Dependencies: Once you're inside the server directory, install the required dependencies using npm:
+8. Install Server Dependencies: Once you're inside the server directory, install the required dependencies using npm:
+   ```bash
    npm install
    
-7. Run the Project: After the dependencies are installed, you can run the project.
-   To start the client, run:
-   npm run dev
-   To start the server, run:
-   npm start
+10. Run the Project: After the dependencies are installed, you can run the project.
+     To start the client, run:
+      ```bash
+      npm run dev
+     To start the server, run:
+      ```bash
+      npm start
 
 
 
