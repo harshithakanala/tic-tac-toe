@@ -33,6 +33,3 @@ Follow these steps to set up and run the project on your local machine:
      - To start the server, run:
         ```bash
         npm start
-
-
-
