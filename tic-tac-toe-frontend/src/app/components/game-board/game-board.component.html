@@ -1,0 +1,27 @@
+<div class="game-container">
+    <h1>Tic Tac Toe</h1>
+    
+    <div class="game-status">
+      <h2 *ngIf="!winner && !isDraw">Player {{ currentPlayer }}'s Turn</h2>
+      <h2 *ngIf="winner">Winner: {{ winner === 'X' ? 'Player X' : 'Player O' }}</h2>
+      <h2 *ngIf="!winner && isDraw">It's a Draw!</h2>
+    </div>
+
+    <div class="game-board">
+      <div *ngFor="let row of board; let rowIndex = index" class="board-row">
+        <div *ngFor="let cell of row; let colIndex = index" 
+             class="board-cell" 
+             [class.filled]="cell"
+             [class.x-player]="cell === 'X'"
+             [class.o-player]="cell === 'O'"
+             [class.winner-cell]="isWinnerCell(rowIndex, colIndex)"
+             (click)="makeMove(rowIndex, colIndex)">
+             <span *ngIf="cell">{{ cell }}</span>
+        </div>
+      </div>
+    </div>
+
+    <div *ngIf="winner || isDraw" class="controls">
+      <button (click)="resetGame()" class="reset-btn">Reset Game</button>
+    </div>
+</div>
