@@ -9,5 +9,28 @@
 			"path": "./tic-tac-toe-frontend"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"cSpell.words": [
+			"author",
+			"backend",
+			"build",
+			"cors",
+			"dependencies",
+			"description",
+			"dist",
+			"express",
+			"index",
+			"keywords",
+			"license",
+			"main",
+			"name",
+			"node",
+			"scripts",
+			"server",
+			"start",
+			"types",
+			"typescript",
+			"version"
+		]
+	}
 }

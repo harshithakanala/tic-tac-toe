@@ -7,7 +7,7 @@
       <h2 *ngIf="!winner && isDraw">It's a Draw!</h2>
     </div>
 
-    <div class="game-board">
+    <div class="game-board" *ngIf="!winner && !isDraw">
       <div *ngFor="let row of board; let rowIndex = index" class="board-row">
         <div *ngFor="let cell of row; let colIndex = index" 
              class="board-cell" 
