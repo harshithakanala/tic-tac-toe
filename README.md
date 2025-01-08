@@ -37,8 +37,19 @@ The backend is built with **Node.js**. Here's how to set it up:
     ```bash
     yarn install
     ```
+3. Build the backend:
 
-3. Start the backend server:
+   If you're using **npm**:
+    ```bash
+    npm run build
+    ```
+
+    Or, if you're using **yarn**:
+    ```bash
+    yarn build
+    ```
+
+4. Start the backend server:
 
     If you're using **npm**:
     ```bash
@@ -83,7 +94,23 @@ The frontend is built with **Angular**. Here's how to set it up:
     yarn install
     ```
 
-3. Start the Angular development server:
+3. Build the Angular application:
+
+   If you're using npm:
+    ```bash
+    npm run build
+    ```
+
+    Or, if you're using **yarn**:
+    ```bash
+    yarn build
+    ```
+    You can also use the watch mode for continuous builds:
+    ```bash
+    ng build --watch
+    ```
+
+5. Start the Angular development server:
 
     If you're using **npm**:
     ```bash
